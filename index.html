@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portifólio de Maria Rikele</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- chamando o ícone na aba do navegador -->
+  <link rel="shortcut icon" href="./img/avatar.jpeg">
+  <!-- tag para inserirmos icones de uma lib externa no nosso HTML -->
+  <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-auto-replace-svg="nest"></script>
+</head>
+
+<body>
+  <!-- cabeçalho da nossa página, visível ao usuário -->
+  <header class="header-menu">
+    <nav>
+      <ul class="lista-menu">
+        <li><a href="#formacao">Formação</a> </li>
+        <li><a href="#portifolio">Portfólio</a></li>
+        <li><a href="#contato">Contatos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- corpo da nossa página, visível ao usuário -->
+  <main>
+    <section class="principal">
+      <article class="subcontainer-principal container">
+        <div>
+          <img src="img/avatar.jpeg">
+        </div>
+        <div>
+          <h1 class="nome-completo" id="minhaNav">Maria Rikele</h1>
+          <h2 class="profissao">Cientista de dados em formação</h2>
+        </div>
+        <div class="texto-sobre">
+          <p>
+           Olá! Me chamo Maria Rikele, tenho 20 anos e estudo Ciência da Computação na UFAL. 
+           Atualmente, minha área de interesse é a área de Dados, mas nesse portifólio apresento
+           alguns projetos também de outras áreas. Espero que possam me conhecer melhor :)
+          </p>
+        </div>
+      </article>
+    </section>
+
+    <!-- O ID é a forma de conectar nossa barra de navegação a esse trecho do código -->
+    <section id="formacao">
+      <article class="container article-lista">
+        <div>
+          <h3 class="topico-principal">Formação</h3>
+        </div>
+
+        <div class="lista-item">
+          <ul>
+            <li>
+              <p class="lista-titulo">Ciclo formativo</p>
+              <a href="https://www.pretalab.com/formacao" target="_blank" class="lista-local">Pretalab Olabi</a>
+              <p class="lista-descricao">
+                A formação O Poder do Futuro é voltada para jovens negras que têm interesse na área de tecnologia e inovação, e que estão comprometidas em aprender. 
+                O curso tem uma metodologia baseada em 3 pilares (conhecimento técnico, autoconhecimento e autogestão).
+
+              </p>
+            </li>
+
+            <li>
+              <p class="lista-titulo">Ciência da Computação</p>
+              <a href="https://ufal.br/" target="_blank" class="lista-local">UFAL</a>
+              <p class="lista-descricao">
+                A Universidade Federal de Alagoas é uma instituição federal de ensino superior, instalada em Maceió, Arapiraca e no sertão de Alagoas.              </p>
+            </li>
+          </ul>
+        </div>
+
+      </article>
+    </section>
+
+    <section class="principal" id="portifolio">
+      <article class="container article-lista">
+        <div>
+          <h3 class="topico-principal">Meus Projetos</h3>
+        </div>
+        <div class="lista-item">
+          <ul>
+            <li>
+              <p class="lista-titulo">Calculadora em JS</p>
+              <p class="subtitulo-lista">PretaLab</p>
+              <a href="https://calculadora-projeto-pretalab.netlify.app/" target="_blank" class="lista-local"> Calculadora em JS, HTML e CSS</a>
+              <p class="lista-descricao">Para esse projeto, foi desenvolvida uma calculadora em JS, HTML e CSS como projeto no Bootcamp Poder do Futuro.</p>
+            </li>
+            <li>
+              <p class="lista-titulo">Carrinho de compras</p>
+              <p class="subtitulo-lista">LuizaLabs</p>
+              <a href="https://github.com/mrikele/luiza-code/tree/main/projeto" target="_blank" class="lista-local">Carrinho de Compras com Python e FastAPI</a>
+              <p class="lista-descricao">Carrinho de compras desenvolvido com Python e FastAPI durante o Bootcamp ofertado pelo LuizaLabs</p>
+            </li>
+            <li>
+                <p class="lista-titulo">Sistema Lanchonete</p>
+                <p class="subtitulo-lista">Disciplina de POO</p>
+                <a href="https://github.com/mrikele/projeto-lanchonete-poo" target="_blank" class="lista-local">Sistema Lanchonete</a>
+                <p class="lista-descricao">Sistema de lanchonete desenvolvido com Java e padrões de projeto com o objetivo de obtenção de nota para a disciplina de Programação Orientada a Objetos</p>
+              </li>
+              <li>
+                <p class="lista-titulo">Análises de dataset com Estatística Descritiva e Inferencial</p>
+                <p class="subtitulo-lista">Disciplina de Estatística e Probabilidade</p>
+                <a href="https://github.com/mrikele/projetos-ep" target="_blank" class="lista-local">Análises Estatísticas</a>
+                <p class="lista-descricao">Análises Estatísticas desenvolvidas durante a disciplina de Estatística e Probabilidade.</p>
+              </li>
+          </ul>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <!-- rodapé da nossa página, visível ao usuário -->
+  <footer class="rodape" id="contato">
+    <div class="container">
+      <ul class="lista-rodape">
+        <li><i class="fas fa-envelope-square estilo-icone"></i>felixrikele@gmail.com</li>
+        <li href=""><i class="fab fa-linkedin estilo-icone"></i>maria-felix</li>
+        <li href=""><i class="fab fa-github-square estilo-icone"></i>mrikele</li>
+      </ul>
+      <a href="#minhaNav">Volte ao topo</a>
+    </div>
+  </footer>
+
+</body>
+
+</html>
